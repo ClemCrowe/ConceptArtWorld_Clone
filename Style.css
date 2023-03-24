@@ -91,6 +91,24 @@ i:hover {
 
 #Way_of_Water_Image img {
     width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+#Gradient_Under {
+    position: absolute;
+    z-index: 5;
+}
+
+#Gradient {
+    position:absolute;
+    z-index: 5;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#Gradient:hover {
+    opacity: 1;
 }
 
 #Image_Texts {
@@ -99,11 +117,13 @@ i:hover {
     margin: 30px;
     color: white;
     font-family: 'Public Sans', sans-serif;
+    z-index: 10;
 }
 
 #Image_Texts h1 {
     font-size: 28px;
     font-weight: 800;
+    margin: 20px 0 10px 0;
 }
 
 .Img_Text_Boxes {
@@ -118,7 +138,8 @@ i:hover {
 #Bottom_Images_All {
     display: flex;
     flex-direction: row;
-    margin: 60px;
+    margin: 60px 60px 5px 60px;
+    transition:0.5s;
 }
 
 #Bottom_Images_Left {
@@ -142,7 +163,11 @@ i:hover {
     background-image: url(./Images/Sung_Choi_Cover.jpg);
     background-position: center;
     background-size: cover;
-    
+    transition:0.5s;
+}
+
+#Sung_Choi_Cover:hover{
+    opacity: 80%;
 }
 
 #Hethe_Srodawa_Cover {
@@ -151,6 +176,11 @@ i:hover {
     background-image: url(./Images/Hethe_Srodawa_Cover.jpg);
     background-position: center;
     background-size: cover;
+    transition:0.5s;
+}
+
+#Hethe_Srodawa_Cover:hover{
+    opacity: 80%;
 }
 
 #Kai_Carpenter_Cover {
@@ -159,6 +189,11 @@ i:hover {
     background-image: url(./Images/Kai_Carpenter_Cover.jpg);
     background-position: center;
     background-size: cover;
+    transition:0.5s;
+}
+
+#Kai_Carpenter_Cover:hover{
+    opacity: 80%;
 }
 
 #Takeshi_Oga_Cover {
@@ -167,6 +202,11 @@ i:hover {
     background-image: url(./Images/Takeshi_Oga_Cover.jpg);
     background-position: center;
     background-size: cover;
+    transition:0.5s;
+}
+
+#Takeshi_Oga_Cover:hover{
+    opacity: 80%;
 }
 
 #Art_Of_Assassins_Creed_V_Cover {
@@ -175,7 +215,13 @@ i:hover {
     background-image: url(./Images/Art_of_Assassins_Creed_Valhalla_Cover.jpg);
     background-position: center;
     background-size: cover;
+    transition:0.5s;
 }
+
+#Art_Of_Assassins_Creed_V_Cover:hover{
+    opacity: 80%;
+}
+
 
 #Mitchell_Mohrhauser_Cover {
     height: 248.99px;
@@ -183,6 +229,11 @@ i:hover {
     background-image: url(./Images/Mitchell_Mohrhauser_Cover.jpg);
     background-position: center;
     background-size: cover;
+    transition:0.5s;
+}
+
+#Mitchell_Mohrhauser_Cover:hover{
+    opacity: 80%;
 }
 
 #Ignacio_Bazan_Lazcano_Cover {
@@ -191,6 +242,11 @@ i:hover {
     background-image: url(./Images/Ignacio_Bazan_Lazcano_Cover.jpg);
     background-position: center;
     background-size: cover;
+    transition:0.5s;
+}
+
+#Ignacio_Bazan_Lazcano_Cover:hover{
+    opacity: 80%;
 }
 
 #Art_Of_StarWars_Mandalorian_Cover {
@@ -199,6 +255,11 @@ i:hover {
     background-image: url(./Images/Mandalorian_S1_Art_Cover.jpg);
     background-position: center;
     background-size: cover;
+    transition:0.5s;
+}
+
+#Art_Of_StarWars_Mandalorian_Cover:hover{
+    opacity: 80%;
 }
 
 #Lyn_Hye_Ryoung_Yang_Cover {
@@ -207,6 +268,11 @@ i:hover {
     background-image: url(./Images/Lynn_Yang_Cover.jpg);
     background-position: center;
     background-size: cover;
+    transition:0.5s;
+}
+
+#Lyn_Hye_Ryoung_Yang_Cover:hover{
+    opacity: 80%;
 }
 
 #John_Libertov_Cover {
@@ -215,6 +281,11 @@ i:hover {
     background-image: url(./Images/John_Liberto_Cover.jpg);
     background-position: center;
     background-size: cover;
+    transition:0.5s;
+}
+
+#John_Libertov_Cover:hover{
+    opacity: 80%;
 }
 
 #Nick_Gindraux_Mandalorian_Cover {
@@ -223,6 +294,11 @@ i:hover {
     background-image: url(./Images/Nick_Gindraux_Cover.jpg);
     background-position: center;
     background-size: cover;
+    transition:0.5s;
+}
+
+#Nick_Gindraux_Mandalorian_Cover:hover{
+    opacity: 80%;
 }
 
 #Konstantin_Maystrenko_Cover {
@@ -231,7 +307,13 @@ i:hover {
     background-image: url(./Images/Konstantin_Maystrenko_Cover.jpg);
     background-position: center;
     background-size: cover;
+    transition:0.5s;
 }
+
+#Konstantin_Maystrenko_Cover:hover{
+    opacity: 80%;
+}
+
 
 .Sub_Head_Title {
     font-family: 'Public Sans', sans-serif;
@@ -263,4 +345,110 @@ i:hover {
 
 .Bottom_Images_Title_Margin {
     margin-bottom: 20px;
+}
+
+#Page_Selection_Buttons {
+    margin-bottom: 100px;
+}
+
+#Buttons {
+    display: flex;
+    color: #CCCCCC;
+    flex-direction: row;
+    margin-left: 65px;
+    align-items: center;
+}
+
+#One button{
+    margin-right: 7px;
+    background-color: #e7292a;
+    color: #F0F0F0;
+    padding: 5px 8px 5px 8px;
+    font-family: 'Public Sans', sans-serif;
+    border-radius: 2px;
+    border-color: transparent;
+    font-size: 13px;
+}
+
+#Two button{
+    margin-right: 7px;
+    background-color: #151515;
+    color: #F0F0F0;
+    padding: 5px 9px 5px 9px;
+    font-family: 'Public Sans', sans-serif;
+    border-radius: 2px;
+    border: 1px solid #222;
+    font-size: 13px;
+    transition: 0.5s;
+}
+
+#Two button:hover {
+    background-color: #e7292a;
+    border: 1px solid transparent;
+}
+
+#Three button{
+    margin-right: 7px;
+    background-color: #151515;
+    color: #F0F0F0;
+    padding: 5px 9px 5px 9px;
+    font-family: 'Public Sans', sans-serif;
+    border-radius: 2px;
+    border: 1px solid #222;
+    font-size: 13px;
+    transition: 0.5s;
+}
+
+#Three button:hover {
+    background-color: #e7292a;
+    border: 1px solid transparent;
+}
+
+#One_Three_Six button{
+    margin-right: 7px;
+    margin-left: 7px;
+    background-color: #151515;
+    color: #F0F0F0;
+    padding: 5px 9px 5px 9px;
+    font-family: 'Public Sans', sans-serif;
+    border-radius: 2px;
+    border: 1px solid #222;
+    font-size: 13px;
+    transition: 0.5s;
+}
+
+#One_Three_Six button:hover {
+    background-color: #e7292a;
+    border: 1px solid transparent;
+}
+
+#Arrow button{
+    background-color: #151515;
+    color: #F0F0F0;
+    padding: 5px 9px 5px 9px;
+    font-family: 'Public Sans', sans-serif;
+    border-radius: 2px;
+    border: 1px solid #222;
+    font-size: 13px;
+    transition: 0.5s;
+}
+
+#Arrow button:hover {
+    background-color: #e7292a;
+    border: 1px solid transparent;
+}
+
+#Footer_Box {
+    display: flex;
+    background-color: #040404;
+    align-items: center;
+    justify-content: center;
+    height: 215.5px;
+    flex-direction: column;
+}
+
+#Copywrite_Txt {
+    color: #777777;
+    font-size: 13px;
+    font-family: 'Public Sans', sans-serif;
 }
