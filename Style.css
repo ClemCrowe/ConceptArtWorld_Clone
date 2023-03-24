@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800&display=swap');
+body {
+    background-color: #151515;;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    padding: 0px 30px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    /* min-height: 110px;
+    /* position: fixed;
+    top: 0%;
+    width: 100%; */
+}
+
+#Items_Left {
+    display: flex;
+    min-width: 470px;
+    height: inherit;
+}
+
+#Items_Right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    min-width: 824px
+}
+
+#NavBarLogo {
+    padding: 10px 0px;
+}
+
+#Center_space_Empty {
+    min-height: 110px;
+    min-width: 105.44px;
+}
+
+#NavBarText {
+    display: flex;
+}
+
+#NavBarText a {
+    display:flex;
+    color:#F0F0F0;
+    text-decoration: none;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 550;
+    padding: 0px 17px;
+    font-size: 15px;
+    height: 110px;
+    align-items: center;
+    transition: 0.5s;
+}
+
+#NavBarText a:hover {
+    color: #e7292a;
+}
+
+i {
+    color: #DDDDDD;
+    padding: 3px;
+    margin-right: 2px;
+    transition: 0.5s;  
+}
+
+i:hover {
+    color: #e7292a;
+}
+
+#Social_Logos {
+    margin-left: 18px; 
+}
+
+#Search_Icon {
+    margin-left: 10px;
+}
+
+#Home_Text a{
+    color: #e7292a;
+}
+
+#Way_of_Water_Image {
+    margin: 35px 60px;
+    position: relative;
+    margin-bottom: 87px;
+}
+
+#Way_of_Water_Image img {
+    width: 100%;
+}
+
+#Image_Texts {
+    position: absolute;
+    bottom: 0;
+    margin: 30px;
+    color: white;
+    font-family: 'Public Sans', sans-serif;
+}
+
+#Image_Texts h1 {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.Img_Text_Boxes {
+    background: #e7292a;
+    color: white;
+    font-size: 11px;
+    padding: 8px 10px;
+    font-weight: 500;
+    font-family: 'Public Sans', sans-serif;
+}
+
+#Bottom_Images_All {
+    display: flex;
+    flex-direction: row;
+    margin: 60px;
+}
+
+#Bottom_Images_Left {
+    display:inline-flexbox;
+    width: 442px;
+}
+
+#Bottom_Images_Right {
+    margin-left: 35px;
+    display: inline;
+    width: 442px;
+}
+
+#Sung_Choi_Cover {
+    height: 248.99px;
+    width: 442.66px;
+    background-image: url(./Images/Sung_Choi_Cover.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#Hethe_Srodawa_Cover {
+    height: 248.99px;
+    width: 442.66px;
+    background-image: url(./Images/Hethe_Srodawa_Cover.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#Kai_Carpenter_Cover {
+    height: 248.99px;
+    width: 442.66px;
+    background-image: url(./Images/Kai_Carpenter_Cover.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#Takeshi_Oga_Cover {
+    height: 248.99px;
+    width: 442.66px;
+    background-image: url(./Images/Takeshi_Oga_Cover.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#Art_Of_Assassins_Creed_V_Cover {
+    height: 248.99px;
+    width: 442.66px;
+    background-image: url(./Images/Art_of_Assassins_Creed_Valhalla_Cover.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#Mitchell_Mohrhauser_Cover {
+    height: 248.99px;
+    width: 442.66px;
+    background-image: url(./Images/Mitchell_Mohrhauser_Cover.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#Ignacio_Bazan_Lazcano_Cover {
+    height: 248.99px;
+    width: 442.66px;
+    background-image: url(./Images/Ignacio_Bazan_Lazcano_Cover.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#Art_Of_StarWars_Mandalorian_Cover {
+    height: 248.99px;
+    width: 442.66px;
+    background-image: url(./Images/Mandalorian_S1_Art_Cover.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#Lyn_Hye_Ryoung_Yang_Cover {
+    height: 248.99px;
+    width: 442.66px;
+    background-image: url(./Images/Lynn_Yang_Cover.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#John_Libertov_Cover {
+    height: 248.99px;
+    width: 442.66px;
+    background-image: url(./Images/John_Liberto_Cover.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#Nick_Gindraux_Mandalorian_Cover {
+    height: 248.99px;
+    width: 442.66px;
+    background-image: url(./Images/Nick_Gindraux_Cover.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#Konstantin_Maystrenko_Cover {
+    height: 248.99px;
+    width: 442.66px;
+    background-image: url(./Images/Konstantin_Maystrenko_Cover.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.Sub_Head_Title {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 800;
+    font-stretch: narrower;
+    color: #ECECEC;
+    font-size: 20px;
+}
+
+.Sub_Head_Text {
+    font-family: 'Public Sans', sans-serif;
+    color: #CCCCCC;
+    font-size: 15px;
+    line-height: 26px;
+    margin-bottom: 35px;
+}
