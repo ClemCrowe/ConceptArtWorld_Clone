@@ -132,6 +132,10 @@ i:hover {
     width: 442px;
 }
 
+#Ignacio_Margin_Bellow {
+    margin-bottom: 59px;
+}
+
 #Sung_Choi_Cover {
     height: 248.99px;
     width: 442.66px;
@@ -235,6 +239,12 @@ i:hover {
     font-stretch: narrower;
     color: #ECECEC;
     font-size: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.Sub_Head_Title:hover {
+    color:#e7292a;
 }
 
 .Sub_Head_Text {
@@ -243,4 +253,14 @@ i:hover {
     font-size: 15px;
     line-height: 26px;
     margin-bottom: 35px;
+}
+
+#Bottom_Images_All .Img_Text_Boxes {
+    margin: 10px;
+    position:absolute;
+    margin-top: 211px;
+}
+
+.Bottom_Images_Title_Margin {
+    margin-bottom: 20px;
 }
