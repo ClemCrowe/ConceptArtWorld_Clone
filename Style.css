@@ -452,3 +452,21 @@ i:hover {
     font-size: 13px;
     font-family: 'Public Sans', sans-serif;
 }
+
+#Footer_Social_Orbs i {
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+#Footer_Social_Orbs i:hover{
+    color: #e7292a;
+}
+
+.Orb {
+    background-color: #222;
+    border-radius: 50%;
+    border: transparent;
+    margin: 3px;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 25px;
+}
